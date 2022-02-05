@@ -1,0 +1,104 @@
+html {
+    background-color: red;
+}
+@font-face{
+    font-family:"super-plumber-brothers";
+    src:url("./fonts/SuperPlumberBrothers-y00V.ttf") format("woff"),
+    url("./fonts/SuperPlumberBrothers-y00V.ttf") format("opentype"),
+    url("./fonts/SuperPlumberBrothers-y00V.ttf") format("truetype");
+}
+.header {
+    background-image: url(https://wallpapercave.com/wp/nsFJoNv.jpg);
+    display: flex;
+    height: 33%;
+    width: 100%;
+    background-size: 100vw 33%;
+    border-radius: .5rem;
+}
+.title {
+    position: relative;
+    font-family: "super-plumber-brothers";
+    font-size: 233%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.baddie {
+    margin: 10px;
+    display: flex;
+}
+.goombas {
+    background-image: url(https://cdn.hipwallpaper.com/i/37/23/25X7Qw.png);
+    height: 33%;
+    width: 29%;
+    border-radius: .5rem;
+    background-size: 100vw 100%;
+    display: flex;
+    padding: 20px;
+}
+.bob_ombs {
+    background-image: url(https://cdn.hipwallpaper.com/i/37/23/25X7Qw.png);
+    height: 33%;
+    width: 29%;
+    border-radius: .5rem;
+    background-size: 100vw 100%;
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+}
+.Cheep-cheeps {
+    background-image: url(https://cdn.hipwallpaper.com/i/37/23/25X7Qw.png);
+    height: 33%;
+    width: 29%;
+    border-radius: .5rem;
+    background-size: 100vw 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+}
+.cheepsamount {
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.bombamount {
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.goomamount {
+    margin-top: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.price {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: .5rem;
+    height: 100px;
+    width: 100%;
+}
+.total {
+    margin: 20px;
+}
+.footer {
+    background-color: blue;
+    border-radius: 0.5rem;
+    border: 10px;
+    height: 133%px;
+    width: 100%;
+    margin-top: 10px;
+}
+.submit {
+    margin: 20px;
+}
+.cost {
+    margin: 33%px;
+
+}
+.listItem {
+    height: 15%;
+    width: 17%;
+}
+#coin {
+    height: 15%;
+    width: 17%;
+}

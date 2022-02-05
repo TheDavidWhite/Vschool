@@ -1,0 +1,27 @@
+#add {
+    padding: 10px;
+}
+#subtract {
+    padding: 10px;
+}
+#multiply {
+    padding: 10px;
+}
+form {
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    
+}
+#resultNumber {
+    background-color: black;
+    color: chartreuse;
+}
+#resultNumber2 {
+    background-color: crimson;
+    color: black;
+}
+#resultNumber3 {
+    background-color: blue;
+    color: brown;
+}

@@ -1,0 +1,16 @@
+.background {
+    background-color: aqua;
+    height: 500px;
+    width: 200px;
+    border-radius: 0.5rem;
+    margin: 100px 500px 500px 800px;
+}
+.number {
+    margin-top: 100px;
+}
+#clicker {
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    font-size: medium;
+}

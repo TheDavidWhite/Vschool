@@ -1,0 +1,39 @@
+.diceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1em;
+}
+.dice {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+.dice.active {
+  background-color: #000;
+  color: #fff;
+}
+.dice.active:hover {
+  background-color: #fff;
+  color: #000;
+}
+.dice.active:active {
+  background-color: #000;
+  color: #fff;
+}

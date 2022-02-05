@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo Lists</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1 class="title">Todo List</h1>
+    <div class="container">
+        <h1 class="todos">Add Todos</h1>
+        <form id="todoForm" class="todoForm" action="index.php" method="post">
+            <input type="text" id="todoTitle" placeholder="What needs to be done?">
+            <input type="text" id="todoDescription" placeholder="Description">
+            <input type="url" id="newImage" alt="Add" placeholder="Img Url">
+            <button id="add-todo">Add</button>
+        </form>
+    </div>  
+    <div class="todo-list" id="todolist"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src='main.js'></script>  
+</body>
+</html>

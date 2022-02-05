@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.index {
+    background-image: url("2016-ford-focus-rs-101-1557785824.jpg");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+/* .links {
+    margin: 10px;
+    display: inline;
+    float: right;
+    list-style-type: none;
+    font-size: 100px;
+
+} */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(53, 196, 252);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }

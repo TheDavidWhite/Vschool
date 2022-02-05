@@ -1,0 +1,233 @@
+.djBox {
+    border: black;
+    width: 400px;
+    height: 600px;
+    /* display: flex;
+    justify-content: center; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 5px 5px 5px 5px;
+}
+.box2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 5px 5px 5px 5px;
+    
+}
+@keyframes slide {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    50% {
+      left: 244px;
+      top: 100px;
+    }
+    100% {
+      left: 488px;
+      top: 0;
+    }
+  }
+  .stage {
+    background: #eaeaed;
+    border-radius: 6px;
+    height: 150px;
+    position: relative;
+    min-width: 50px;
+  }
+  .stage:hover .box3 {
+    animation: slide 2s ease-in-out .5s infinite alternate;
+  }
+  .stage:active .box3 {
+    animation-play-state: paused;
+  }
+  .box3 {
+    background: #2db34a;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+  }
+  .box5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+  }
+  
+  .box5:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  }
+  
+  .box5:hover::before, .box5:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #FDA8CF;
+    border-radius: 75px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+  }
+  
+.box5:hover:after {
+    background: #F3CE5E;
+    animation: 2s counterclockwise infinite;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
+  
+.box6 {
+    background-color: darkcyan;
+    height: 100px;
+    width: 100px;
+}
+.box6:hover {
+    
+}
+.box1:hover {
+    background-color: darksalmon;
+}
+.box2:hover {
+    transform: scale(1.3) rotate(10deg);
+}
+.box4 {
+    height: 100px;
+    width: 100px;
+    background: red;
+    -webkit-animation: animationName 6s ease 0s infinite normal; /* Safari 4+ */
+    -moz-aanimation: animationName 6s ease 0s infinite normal; /* Fx 5+ */
+    -o-animation: animationName 6s ease 0s infinite normal;/* Opera 12+ */
+    animation: animationName 6s ease 0s infinite normal; 
+}
+.box4:hover{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+    cursor: pointer;
+}
+@-webkit-keyframes animationName {
+    0%    { background: red; }
+    25%   { background: blue; }
+    50%   { background: orange; }
+    75%   { background: yellow; }
+    100%  { background: dodgerblue; }
+}
+@-moz-keyframes animationName {
+     0%   { background: red; }
+    25%   { background: blue; }
+    50%   { background: orange; }
+    75%   { background: yellow; }
+    100%  { background: dodgerblue; }
+}
+@-o-keyframes animationName {
+     0%   { background: red; }
+    25%   { background: blue; }
+    50%   { background: orange; }
+    75%   { background: yellow; }
+    100%  { background: dodgerblue; }
+}
+@keyframes animationName {
+     0%   { background: red; }
+    25%   { background: blue; }
+    50%   { background: orange; }
+    75%   { background: yellow; }
+    100%  { background: dodgerblue; }
+}

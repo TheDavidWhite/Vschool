@@ -1,0 +1,53 @@
+.title {
+    color: chartreuse;
+    font-size: 100px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+.todo-list {
+    background-color:red;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: fit-content;
+    color: chartreuse;
+}
+div {
+    background-color: black;
+    display: inline-block;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 0.5rem;
+    width: 100px;
+    height: fit-content;
+    color: chartreuse;
+}
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 0.5rem;
+    width: 200px;
+    height: fit-content;
+    color: chartreuse;
+}
+.todos {
+    font-size: 50px;
+    margin: 10px;
+}
+form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    color: chartreuse;
+}

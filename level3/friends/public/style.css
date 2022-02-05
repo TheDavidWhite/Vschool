@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+}
+.person {
+    display: inline-block;
+    margin: 10px;
+    color: azure;
+    background-color: black;
+    border-radius: 0.5rem;
+}
